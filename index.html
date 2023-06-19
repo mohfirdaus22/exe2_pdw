@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+   
+    <style>
+      body {
+        background-color:ghostwhite;  
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+  
+      .container {
+        border: 3px solid black;
+        text-align: center;
+        max-width: 600px;
+        padding: 20px;
+      }
+  
+      .header {
+        background-color:aliceblue;
+        padding: 10px;
+        border-radius: 5px 5px 0 0;
+        border-bottom: 1px solid #ccc;
+        text-align: center;  
+        margin-bottom: 30px;
+      }
+  
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .media-container {
+        width: 100%;
+        text-align: center;
+      }
+  
+      .media-container img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+  
+      .media-container p {
+        margin-bottom: 20px;
+      }
+      
+      .media-container video {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .survey-button {
+        text-align: center;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="border border-dark" >
+        <center>
+          <h1>Haikyu</h1>
+          <audio controls>
+            <source src="haikyuu-trailer.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <h5>lagu opening haikyu menggugah semangat</h5>
+          <video width="320" height="240" controls>
+            <source src="haikyuu-trailer.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <h5>Lagu penuh perjuangan</h5>
+          <img src="hinata.jpg" width="80%" height="80%" alt="" />
+        </center>
+        <a href="form.html" class="btn btn-primary ml-1 mb-1">Survey</a>
+        <br>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
